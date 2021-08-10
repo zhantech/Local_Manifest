@@ -21,6 +21,9 @@
         <project path="frameworks/base" name="zhantech/android_frameworks_base" remote="tree" revision="Q" />
 
         <!-- Sync Hals -->
+	<remove-project name="LineageOS/android_hardware_qcom_audio" />
+	<remove-project name="LineageOS/android_hardware_qcom_media" />
+	<remove-project name="LineageOS/android_hardware_qcom_display" />
         <project path="hardware/qcom-caf/sm8150/audio" name="DqrKn3Zz/android_hardware_qcom-caf_sm8150_audio" remote="tree" revision="ten" />
         <project path="hardware/qcom-caf/sm8150/media" name="DqrKn3Zz/android_hardware_qcom-caf_sm8150_media" remote="tree" revision="ten" />
         <project path="hardware/qcom-caf/sm8150/display" name="DqrKn3Zz/android_hardware_qcom-caf_sm8150_display" remote="tree" revision="ten" />

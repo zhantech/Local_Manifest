@@ -21,9 +21,9 @@
         <project path="frameworks/base" name="zhantech/android_frameworks_base" remote="tree" revision="Q" />
 
         <!-- Sync Hals -->
-        <project path="hardware/qcom-caf/sm8150/audio" name="DqrKn3Zz/android_hardware_qcom-caf_sm8150_audio" remote="tree" revision="trinket-q" />
-        <project path="hardware/qcom-caf/sm8150/media" name="DqrKn3Zz/android_hardware_qcom-caf_sm8150_media" remote="tree" revision="trinket-q" />
-        <project path="hardware/qcom-caf/sm8150/display" name="DqrKn3Zz/android_hardware_qcom-caf_sm8150_display" remote="tree" revision="trinket-q" />
+        <project path="hardware/qcom-caf/sm8150/audio" name="DqrKn3Zz/android_hardware_qcom-caf_sm8150_audio" remote="tree" revision="ten" />
+        <project path="hardware/qcom-caf/sm8150/media" name="DqrKn3Zz/android_hardware_qcom-caf_sm8150_media" remote="tree" revision="ten" />
+        <project path="hardware/qcom-caf/sm8150/display" name="DqrKn3Zz/android_hardware_qcom-caf_sm8150_display" remote="tree" revision="ten" />
 
 	<!-- Sync toolchain -->
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="tree" revision="master" />

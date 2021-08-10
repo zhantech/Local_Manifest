@@ -29,6 +29,6 @@
         <project path="hardware/qcom-caf/sm8150/display" name="DqrKn3Zz/android_hardware_qcom-caf_sm8150_display" remote="tree" revision="trinket-q" />
 
 	<!-- Sync toolchain -->
-	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="tree" revision="master" />
+	<project path="prebuilts/clang/host/linux-x86/clang-13.0" name="Kyvangka1610/Sixteen_Clang" remote="tree" revision="clang-13" />
 </manifest>
 

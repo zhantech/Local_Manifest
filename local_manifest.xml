@@ -8,7 +8,7 @@
                 fetch="https://gitlab.com/anggialansori404" />
 
         <remove-project name="device/generic/opengl-transport" />
-        <remove-project name="zhantech/vendor_xiaomi_mojito" />
+        <remove-project name="vendor/xiaomi/mojito" />
 
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="zhantech/device_xiaomi_mojito" remote="tree" revision="11" />

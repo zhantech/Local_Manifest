@@ -10,8 +10,8 @@
         <remove-project name="device/generic/opengl-transport" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/mojito" name="zhantech/device_xiaomi_mojito" remote="tree" revision="11" />
-        <project path="vendor/xiaomi/mojito" name="zhantech/vendor_xiaomi_mojito" remote="tree" revision="11" />
+        <project path="device/xiaomi/mojito" name="zhantech/device_xiaomi_mojito" remote="tree" revision="aicp" />
+        <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="vendor" revision="eleven" />
         <project path="vendor/xiaomi/mojito-vendor" name="vendor_xiaomi_mojito-vendor" remote="vendor" revision="eleven" />
         <project path="kernel/xiaomi/mojito" name="venom-stark/kernel_xiaomi_mojito" remote="tree" revision="R" />
 

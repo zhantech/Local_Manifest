@@ -8,7 +8,7 @@
                 fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
 
         <!-- Sync Selinux -->
-        <remove-project name="platform/external/selinux">
+        <remove-project name="platform/external/selinux" />
         <project path="external/selinux" name="ProjectSakura/external_selinux" remote="tree" revision="11" />
 
         <!-- Sync trees -->

@@ -7,6 +7,9 @@
 	<remote name="vendor"
                 fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
 
+        <!-- Sync Selinux -->
+        <project path="external/selinux" name="ProjectSakura/external_selinux" remote="tree" revision="11" />
+
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="zhantech/device_xiaomi_mojito" remote="tree" revision="floko" />
         <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="vendor" revision="eleven" />

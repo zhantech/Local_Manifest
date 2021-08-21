@@ -7,8 +7,6 @@
 	<remote name="vendor"
                 fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
 
-        <remove-project name="device/generic/opengl-transport" />
-
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="zhantech/device_xiaomi_mojito" remote="tree" revision="11" />
         <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="vendor" revision="eleven" />

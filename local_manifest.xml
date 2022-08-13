@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote name="tree"
+                fetch="https://github.com" />
+
+        <!-- Sync trees -->
+        <project path="device/xiaomi/tissot" name="zhantech/dt_tissot" remote="tree" revision="RR-10" />
+	<project path="device/xiaomi/msm8953-common" name="zhantech/dt_msm8953" remote="tree" revision="RR-10" />
+        <project path="vendor/xiaomi" name="zhantech/vt_tissot" remote="tree" revision="10" />
+        <project path="kernel/xiaomi/msm8953" name="zhantech/Cakeby_Kernel_Tissot" remote="tree" revision="Cakeby" />
+        <!-- Sync Milestone -->
+        <remove-project name="android_frameworks_base" />
+        <remove-project name="android_vendor_resurrection" />
+        <remove-project name="Resurrection_packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="zhantech/Resurrection_packages_apps_Settings" remote="tree" revision="Q" />
+        <project path="vendor/rr" name="zhantech/android_vendor_resurrection" remote="tree" revision="Q" />
+        <project path="frameworks/base" name="zhantech/android_frameworks_base" remote="tree" revision="Q" />
+
+	<!-- Sync toolchain -->
+	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="tree" revision="master" />
+</manifest>
+

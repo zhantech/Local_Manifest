@@ -4,13 +4,15 @@
 	<remote name="tree"
                 fetch="https://github.com" />
 
-	<remote name="vendor"
-                fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
+        <!-- Delete Repo -->
+        <remove-project name="LineageOS/android_hardware_lineage_compat" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/mojito" name="zhantech/device_xiaomi_mojito" remote="tree" revision="11" />
-        <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="vendor" revision="eleven" />
-        <project path="vendor/xiaomi/mojito-vendor" name="vendor_xiaomi_mojito-vendor" remote="vendor" revision="eleven" />
-        <project path="kernel/xiaomi/mojito" name="venom-stark/kernel_xiaomi_mojito" remote="tree" revision="R" />
+        <project path="device/xiaomi/tissot" name="zhantech/dt_tissot" remote="tree" revision="rice-T" />
+        <project path="device/xiaomi/msm8953-common" name="zhantech/dt_msm8953" remote="tree" revision="rice-T" />
+        <project path="vendor/xiaomi/tissot" name="zhantech/vt_tissot" remote="tree" revision="13" />
+        <project path="vendor/xiaomi/msm8953-common" name="zhantech/vt_msm8953" remote="tree" revision="rice-T" />
+        <project path="prebuilts/clang/host/linux-x86/gabuters-clang" name="Gabuters-Dev/gabuters-clang" remote="tree" revision="master" />
+        <project path="kernel/xiaomi/msm8953" name="zhantech/Cakeby_Kernel_Tissot" remote="tree" revision="Cakeby" />
 
 </manifest>

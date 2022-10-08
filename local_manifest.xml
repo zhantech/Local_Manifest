@@ -6,6 +6,12 @@
 
         <!-- Delete Repo -->
         <remove-project name="LineageOS/android_hardware_lineage_compat" />
+        <remove-project name="LineageOS/android_hardware_qcom_wlan" />
+        <remove-project name="LineageOS/android_system_libhidl" />
+
+        <!-- Fix Repo -->
+        <project path="hardware/qcom-caf/wlan" name="zhantech/android_hardware_qcom_wlan" remote="tree" revision="lineage-20.0-caf" />
+        <project path="system/libhidl" name="zhantech/android_system_libhidl" remote="tree" revision="lineage-20.0" />
 
         <!-- Sync trees -->
         <project path="device/xiaomi/tissot" name="zhantech/dt_tissot" remote="tree" revision="rice-T" />

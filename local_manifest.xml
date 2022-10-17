@@ -6,7 +6,7 @@
 
         <!-- Delete Repo -->
         <remove-project name="LineageOS/android_hardware_lineage_compat" />
-        <remove-project name="android_vendor_rice" />
+        <remove-project name="RiceDroid/android_vendor_rice" />
 
         <!-- FM Radio Repo -->
         <project path="packages/apps/FMRadio" name="mi-sdm439/android_packages_apps_FMRadio" remote="tree" revision="lineage-18.1"/>

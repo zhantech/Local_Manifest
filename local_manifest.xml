@@ -7,6 +7,10 @@
         <!-- Delete Repo -->
         <remove-project name="LineageOS/android_hardware_lineage_compat" />
 
+        <!-- FM Radio Repo -->
+        <project path="packages/apps/FMRadio" name="mi-sdm439/android_packages_apps_FMRadio" remote="tree" revision="lineage-18.1"/>
+        <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" revision="lineage-18.1"/>
+
         <!-- Sync trees -->
         <project path="device/xiaomi/tissot" name="zhantech/dt_tissot" remote="tree" revision="rice-T" />
         <project path="device/xiaomi/msm8953-common" name="zhantech/dt_msm8953" remote="tree" revision="rice-T" />

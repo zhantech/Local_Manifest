@@ -16,7 +16,7 @@
 
         <!-- Sync trees -->
         <project path="device/xiaomi/tissot" name="zhantech/dt_tissot" remote="tree" revision="rice-T" />
-        <project path="device/xiaomi/msm8953-common" name="zhantech/dt_msm8953" remote="tree" revision="rice-T" />
+        <project path="device/xiaomi/msm8953-common" name="zhantech/dt_msm8953" remote="tree" revision="13-PowerLibperfmgr" />
         <project path="vendor/xiaomi/tissot" name="zhantech/vt_tissot" remote="tree" revision="13" />
         <project path="vendor/xiaomi/msm8953-common" name="zhantech/vt_msm8953" remote="tree" revision="rice-T" />
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton" revision="clang-15" />

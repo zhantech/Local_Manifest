@@ -4,22 +4,22 @@
 	<remote name="tree"
                 fetch="https://github.com" />
 
+	<remote name="proton"
+                fetch="https://gitlab.com/LeCmnGend" />
+
         <!-- Delete Repo -->
         <remove-project name="LineageOS/android_hardware_lineage_compat" />
-        <remove-project name="RiceDroid/android_vendor_rice" />
 
         <!-- FM Radio Repo -->
         <project path="packages/apps/FMRadio" name="mi-sdm439/android_packages_apps_FMRadio" remote="tree" revision="lineage-18.1"/>
         <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" revision="lineage-18.1"/>
-
-        <project path="vendor/lineage" name="zhantech/android_vendor_rice" remote="tree" revision="thirteen" />
 
         <!-- Sync trees -->
         <project path="device/xiaomi/tissot" name="zhantech/dt_tissot" remote="tree" revision="rice-T" />
         <project path="device/xiaomi/msm8953-common" name="zhantech/dt_msm8953" remote="tree" revision="rice-T" />
         <project path="vendor/xiaomi/tissot" name="zhantech/vt_tissot" remote="tree" revision="13" />
         <project path="vendor/xiaomi/msm8953-common" name="zhantech/vt_msm8953" remote="tree" revision="rice-T" />
-        <project path="prebuilts/clang/host/linux-x86/gabuters-clang" name="Gabuters-Dev/gabuters-clang" remote="tree" revision="master" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton" revision="clang-15" />
         <project path="kernel/xiaomi/msm8953" name="zhantech/android_kernel_msm8953" remote="tree" revision="Pringgodani" />
 
 </manifest>
